@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--When slider is pressed, show pressed image. -->
+
+    <!--When slider is not pressed, show unpressed image. -->
+
+    <item android:state_pressed="true" android:drawable="@drawable/seekbar_pressed_thumb" />
+    <item android:state_pressed="false" android:drawable="@drawable/seekbar_unpressed_thumb" />
+</selector>

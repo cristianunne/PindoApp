@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="opciones">
+            <item>Normal</item>
+            <item>Muerto</item>
+            <item>Bifurcado</item>
+            <item>Torcido</item>
+            <item>Daño mecanico</item>
+            <item>Daño viento</item>
+            <item>Quebrado</item>
+            <item>Enfermo</item>
+            <item>Daño hormiga</item>
+            <item>Daño mono</item>
+            <item>""</item>
+        </string-array>
+    
+</resources>

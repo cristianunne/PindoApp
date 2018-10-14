@@ -1,0 +1,22 @@
+     //Agrego la ventana de alerta
+                    /*final AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
+
+                    View mview = getLayoutInflater().inflate(R.layout.dialog_result, null);
+
+                    Button btn = (Button) mview.findViewById(R.id.btn_aceptar_dialog);
+                    TextView txt_ = (TextView)mview.findViewById(R.id.textView7);
+                    txt_.setText("Cantidad: " + cantidad.toString());
+
+                    builder.setView(mview);
+                    final AlertDialog dialog = builder.create();
+                    dialog.setCanceledOnTouchOutside(false);
+
+                    btn.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v_) {
+
+                            dialog.dismiss();
+                        }
+                    });
+
+                    dialog.show();*/

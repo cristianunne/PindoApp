@@ -1,0 +1,30 @@
+  SQLite_OpenHelper conn = new SQLite_OpenHelper(context, Utilidades.DB_NAME, null, 1);
+        SQLiteDatabase db = conn.getReadableDatabase();
+        db.beginTransaction();
+
+        try{
+
+            db.setTransactionSuccessful();
+
+        } catch (SQLiteException e){
+            this._mensaje = e.getMessage();
+            this._status = false;
+        } finally {
+            db.endTransaction();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        for (ParcelasRelevamientoSQLiteEntity parc : parc_post){
+
+                    Log.d("idro, lat, long, geom", parc.getIdrodales() + ", " + parc.getLat() + ", " + parc.getLongi() + ", " + parc.getGeometry());
+                }

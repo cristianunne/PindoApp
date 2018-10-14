@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#dfdfdf"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_green_dark"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/text_dr_title_ac_canc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Editar Parcela"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Parcela:"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/tv_edit_parc_parcela"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/borde_campos"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="text"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Superficie:"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/tv_edit_parc_superficie"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/borde_campos"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Pendiente:"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/tv_edit_parc_pendiente"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/borde_campos"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView113d"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Tipo:"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/tv_edit_parc_tipo"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/borde_campos"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView11_"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Comentarios:"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/tv_edit_parc_coment"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/borde_campos"
+                android:ems="10"
+                android:inputType="textMultiLine|textImeMultiLine"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".40"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView111"
+                    android:layout_width="41dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical|start"
+                    android:text="Lat:"
+                    android:textColor="@android:color/black"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="10dp" />
+
+                <EditText
+                    android:id="@+id/tv_edit_parc_lat_point_rel"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/borde_campos"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:paddingLeft="10dp"
+                    app:layout_constraintStart_toEndOf="@+id/textView111"
+                    tools:layout_editor_absoluteY="0dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight=".40"
+
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView111_"
+                    android:layout_width="49dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center_vertical"
+                    android:text="Longi:"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintStart_toEndOf="@+id/tv_edit_parc_lat_point_rel"
+                    tools:layout_editor_absoluteY="10dp" />
+
+                <EditText
+                    android:id="@+id/tv_edit_parc_longi_point_rel"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/borde_campos"
+                    android:ems="10"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:paddingLeft="10dp"
+                    app:layout_constraintStart_toEndOf="@+id/textView111_"
+                    tools:layout_editor_absoluteY="4dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|end"
+                android:layout_weight="0.1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_location_parc"
+                    android:layout_width="31dp"
+                    android:layout_height="29dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:adjustViewBounds="false"
+                    android:background="@drawable/localizacion"
+                    android:padding="5dp"
+                    android:scaleType="fitCenter"
+                    android:text="Eliminar"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toEndOf="@+id/tv_edit_parc_longi_point_rel"
+                    tools:layout_editor_absoluteY="2dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_cancelar_edit_parc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/effect_button_remove"
+            android:text="Cancelar"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_aceptar_edit_parc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="Aceptar"
+            android:textColor="@android:color/holo_green_dark" />
+    </LinearLayout>
+
+</LinearLayout>

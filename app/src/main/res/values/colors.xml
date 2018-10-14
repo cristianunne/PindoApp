@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="holo_green_light">#99cc00</color>
+    <color name="holo_green_oscuro">#536c07</color>
+    <color name="holo_red_light_2">#e0fc7651</color>
+    <color name="naranja1">#fcb57b</color>
+    <color name="naranja2">#e07523</color>
+    <color name="gris_1">#dcdcdc</color>
+    <color name="gris_2">#bebebe</color>
+</resources>

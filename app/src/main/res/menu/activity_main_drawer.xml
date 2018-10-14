@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_rodales"
+            android:icon="@drawable/ic_bosque"
+            android:title="Rodales" />
+    </group>
+
+    <item android:title="Navegador">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navegador"
+                    android:icon="@drawable/ic_mapa"
+                    android:title="Navegador" />
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Exportar">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/excel"
+                android:icon="@drawable/ic_xls"
+                android:title="Excel" />
+            <item
+                android:id="@+id/nav_florexcel"
+                android:icon="@drawable/ic_flor_excel"
+                android:title="Flor-Excel" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Configuración">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_config"
+                    android:icon="@drawable/config"
+                    android:title="Configuración" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

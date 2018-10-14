@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Pindo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Pindo S.A</string>
+    <string name="nav_header_subtitle">http://www.pindosa.com.ar</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Fragment Home</string>
+    <string name="title_config_postgis">Parámetros de Conexión</string>
+    <string name="title_crear_rodal">Nuevo Rodal</string>
+    <string name="title_activity_arboles_rel">Relevamiento de árboles</string>
+    <string name="title_activity_navegador">NavegadorActivity</string>
+</resources>

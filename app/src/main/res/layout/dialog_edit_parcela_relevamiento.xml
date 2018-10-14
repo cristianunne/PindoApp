@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#dfdfdf"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_green_dark"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/text_dr_title_ac_canc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Editar la Parcela"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Id Rodal:"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/tv_edit_parc_id"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                android:background="@drawable/borde_campos"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="number"
+                android:paddingLeft="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Cod SAP:"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/tv_edit_parc_codsap"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/borde_campos"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Parcela:"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/tv_edit_parc_parcela"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/borde_campos"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="text"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Superficie:"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/tv_edit_parc_superficie"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/borde_campos"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Pendiente:"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/tv_edit_parc_pendiente"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/borde_campos"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="Comentarios:"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/tv_edit_parc_coment"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/borde_campos"
+                android:ems="10"
+                android:focusable="auto"
+                android:inputType="text"
+                android:paddingLeft="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_cancelar_edit_parc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/effect_button_remove"
+            android:focusableInTouchMode="true"
+            android:text="Cancelar"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_aceptar_edit_parc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="Aceptar"
+            android:textColor="@android:color/holo_green_dark" />
+    </LinearLayout>
+
+</LinearLayout>
